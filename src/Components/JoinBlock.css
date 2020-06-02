@@ -1,0 +1,26 @@
+.form-wrapper {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 15%;
+  }
+  
+  .form-input {
+	  padding: 13px 40px;
+	  margin-bottom: 7px;
+	  outline: none;
+	  border: 1px solid green;
+  }
+  
+  .form-link {
+	  padding: 13px 82px;
+	  margin-bottom: 7px;
+	  background-color: green;
+	  text-decoration: none;
+	  color: #fff
+  }
+  
+  .form-link:hover {
+	  background-color: lighten(green, 20%);
+  }
